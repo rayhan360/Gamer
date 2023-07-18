@@ -24,6 +24,7 @@
     .banner-section{
         flex-direction: column-reverse ;
         align-items: center;
+        margin-bottom: 30px;
     }
 }
 
