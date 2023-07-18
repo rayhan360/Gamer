@@ -4,6 +4,10 @@
     .banner-section{
         flex-direction: column;
     }
+    .online-games-section-card{
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
     .navbar>ul{
         padding-top: 40px;
         width: 200px;
@@ -26,6 +30,14 @@
         align-items: center;
         margin-bottom: 30px;
     }
+    .online-games-section {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .font-light-gray {
+        font-size: 10px;
+    }
+    
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px){
@@ -36,6 +48,11 @@
     .banner-section{
         align-items: center;
         flex-direction: column-reverse;
+        margin-bottom: 30px;
+    }
+    .online-games-section-card{
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
     }
     .bg{
         background: none;
@@ -45,5 +62,8 @@
     }
     .navbar li{
         font-size: 15px;
+    }
+    .font-light-gray {
+        font-size: 11px;
     }
 }
