@@ -1,6 +1,7 @@
 @media screen and (max-width: 576px){
     .navbar,
-    .navbar>ul{
+    .navbar>ul,
+    .banner-section{
         flex-direction: column;
     }
     .navbar>ul{
@@ -11,11 +12,32 @@
     .follow{
         margin-top: 30px;
     }
+    .bg{
+        background: none;
+    }
+    .banner-img img {
+        width: 80%;
+        object-fit: cover;
+        margin-left: 33px;
+    }
+
+    .banner-section{
+        flex-direction: column-reverse ;
+        align-items: center;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px){
-    .navbar{
+    .navbar,
+    .banner-section{
         flex-direction: column;
+    }
+    .banner-section{
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .bg{
+        background: none;
     }
     .navbar>ul{
         padding-top: 10px;
