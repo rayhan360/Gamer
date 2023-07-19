@@ -74,6 +74,23 @@
     .download-game-text h2 {
         font-size: 25px;
     }
+    .our-game {
+        max-width: 400px;
+        margin: 0px auto;
+    }
+    .game{
+        gap: 2px;
+        margin-right: 0px;
+        padding: 0;
+        height: auto;
+        width: auto;
+    }
+    .game img {
+        width: 20%;
+    }
+    .game P{
+        font-size: 8px;
+    }
     
 }
 
