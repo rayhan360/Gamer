@@ -157,12 +157,15 @@ body {
     font-size: 40px;
     font-weight: 700;
 }
-.online-games-section-text{
+
+.online-games-section-text {
     margin-top: 40px;
 }
-.online-games-section-description{
+
+.online-games-section-description {
     text-align: center;
 }
+
 .online-games-section-card {
     margin-top: 35px;
     margin-bottom: 50px;
@@ -174,3 +177,53 @@ body {
     border-radius: 16px;
 }
 
+/* online game section hover related styles */
+.card {
+    position: relative;
+    display: inline-block;
+}
+
+.card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-color: black;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 18px;
+}
+
+.card:hover::after {
+    opacity: 0.7;
+}
+
+.middle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 2;
+    transition: opacity .3s ease;
+    text-align: center;
+    margin-top: 150px;
+}
+.text{
+    color: #FF42A5;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.fa-solid{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.card:hover .middle {
+    opacity: .5;
+}

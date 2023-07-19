@@ -1,69 +1,94 @@
-@media screen and (max-width: 576px){
+@media screen and (max-width: 576px) {
+
     .navbar,
     .navbar>ul,
-    .banner-section{
+    .banner-section {
         flex-direction: column;
     }
-    .online-games-section-card{
+
+    .online-games-section-card {
         grid-template-columns: repeat(1, 1fr);
         text-align: center;
     }
-    .navbar>ul{
+
+    .navbar>ul {
         padding-top: 40px;
         width: 200px;
         align-items: center;
     }
-    .follow{
+
+    .follow {
         margin-top: 30px;
     }
-    .bg{
+
+    .bg {
         background: none;
     }
+
     .banner-img img {
         width: 80%;
         object-fit: cover;
         margin-left: 33px;
     }
 
-    .banner-section{
-        flex-direction: column-reverse ;
+    .banner-section {
+        flex-direction: column-reverse;
         align-items: center;
         margin-bottom: 30px;
     }
+
     .online-games-section {
         max-width: 400px;
         margin: 0 auto;
     }
+
     .font-light-gray {
         font-size: 10px;
     }
-    
+
+    .card::after {
+        width: 75%;
+        height: 95%;
+        margin-left: 50px;
+    }
 }
 
-@media screen and (min-width: 576px) and (max-width: 992px){
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
     .navbar,
-    .banner-section{
+    .banner-section {
         flex-direction: column;
     }
-    .banner-section{
+
+    .banner-section {
         align-items: center;
         flex-direction: column-reverse;
         margin-bottom: 30px;
     }
-    .online-games-section-card{
+
+    .online-games-section-card {
         grid-template-columns: repeat(2, 1fr);
         text-align: center;
     }
-    .bg{
+
+    .bg {
         background: none;
     }
-    .navbar>ul{
+
+    .navbar>ul {
         padding-top: 10px;
     }
-    .navbar li{
+
+    .navbar li {
         font-size: 15px;
     }
+
     .font-light-gray {
         font-size: 11px;
+    }
+    .card::after {
+        width: 80%;
+        height: 95%;
+        margin-left: 38px;
     }
 }
