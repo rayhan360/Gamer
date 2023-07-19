@@ -183,7 +183,7 @@ body {
     display: inline-block;
 }
 
-.card:hover img{
+.card:hover img {
     filter: brightness(30%);
 }
 
@@ -199,13 +199,14 @@ body {
     text-align: center;
     margin-top: 150px;
 }
-.text{
+
+.text {
     color: #FF42A5;
     font-size: 20px;
     font-weight: 700;
 }
 
-.fa-solid{
+.fa-youtube {
     color: white;
     font-size: 30px;
     padding-bottom: 10px;
@@ -213,4 +214,43 @@ body {
 
 .card:hover .middle {
     opacity: .5;
+}
+
+/* play instantly section code */
+.download-game {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.download-game-text {
+    width: 40%;
+}
+
+.download-game-picture {
+    display: flex;
+    align-items: center;
+}
+
+.download-game-picture .download-img-1 {
+    width: 95%;
+    object-fit: cover;
+}
+
+.download-game-picture .download-img-2 {
+    width: 75%;
+    object-fit: cover;
+    position: relative;
+    top: 180px;
+    right: 130px;
+}
+
+.download-game-text h2 {
+    color: #0B0223;
+    font-size: 35px;
+    font-weight: 700;
 }
