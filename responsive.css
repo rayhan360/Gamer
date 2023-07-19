@@ -48,7 +48,7 @@
 
     .card::after {
         width: 75%;
-        height: 95%;
+        height: 96%;
         margin-left: 50px;
     }
 }
