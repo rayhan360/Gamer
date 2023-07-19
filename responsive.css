@@ -30,6 +30,9 @@
         object-fit: cover;
         margin-left: 33px;
     }
+    .banner-2{
+        text-align: center;
+    }
 
     .banner-section {
         flex-direction: column-reverse;
@@ -135,6 +138,9 @@
         align-items: center;
         flex-direction: column-reverse;
         margin-bottom: 30px;
+    }
+    .banner-2{
+        text-align: center;
     }
 
     .online-games-section-card {

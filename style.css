@@ -84,6 +84,8 @@ body {
     justify-content: space-between;
 }
 
+
+
 .banner-img img {
     width: 600px;
     object-fit: cover;
@@ -138,6 +140,22 @@ body {
     border: none;
     font-size: 15px;
     padding: 10px 30px;
+}
+
+.banner-2 {
+    flex-direction: row-reverse;
+    text-align: end;
+}
+.banner-text-2{
+    margin-top: 20px;
+}
+.banner-title-3 {
+    font-size: 40px;
+}
+.quote span {
+    color: #534C64;
+    font-size: 25px;
+    font-weight: 700;
 }
 
 /* online games section styles  */
@@ -287,18 +305,20 @@ body {
     padding: 10px;
 }
 
-.game:hover{
+.game:hover {
     border: 3px solid #FF42A5;
 }
-.game:hover p{
+
+.game:hover p {
     color: #F948B2;
 }
 
 /* footer section styles here */
-footer{
+footer {
     background: #0B0223;
 }
-.footer{
+
+.footer {
 
     display: flex;
     flex-direction: column;
@@ -306,7 +326,7 @@ footer{
     padding-bottom: 100px;
 }
 
-.footer-logo{
+.footer-logo {
     margin-top: 100px;
     display: flex;
     gap: 10px;
@@ -317,7 +337,7 @@ footer{
     justify-content: center;
 }
 
-.footer-nav{
+.footer-nav {
     display: flex;
     color: #FFF;
     justify-content: center;
@@ -326,14 +346,14 @@ footer{
     font-weight: 600;
 }
 
-.footer-icon{
+.footer-icon {
     display: flex;
     justify-content: center;
     gap: 20px;
 
 }
 
-.footer-condition{
+.footer-condition {
     display: flex;
     color: rgba(255, 255, 255, 0.60);
     justify-content: center;
@@ -342,7 +362,7 @@ footer{
     font-weight: 400;
 }
 
-.copyright{
+.copyright {
     text-align: center;
     color: rgba(255, 255, 255, 0.60);
 }
